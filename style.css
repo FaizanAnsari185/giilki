@@ -36,18 +36,18 @@ body{
     color: rgb(252, 254, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 25px;
-    height: 30px;
-    width: 150px;
+    align-self: flex-start;
+    padding: 10px 30px;
 }
 
 .h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    font-size: 40px;
 }
 
 .p1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
 }
 
 .yy{
@@ -56,8 +56,23 @@ body{
 }
 
 .txt{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly; */
+    justify-content: center;
+    padding-left: 40px;
 
+}
+
+.btn2{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(252, 254, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    align-self: flex-start;
+    padding: 15px 50px;
+}
+
+.img1{
+    margin: 20px;
 }
