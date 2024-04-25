@@ -59,7 +59,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 40px;
+    padding-left: 30px;
 
 }
 
@@ -70,9 +70,42 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 20px;
     align-self: flex-start;
-    padding: 15px 50px;
+    padding: 15px 60px;
+    margin-top: 30px;
 }
 
 .img1{
     margin: 20px;
+}
+.bluebox{
+    display: flex;
+    background-color: rgb(203, 233, 247);
+    flex-direction: column;
+    
+}
+
+
+.h22{
+    display: flex;
+    justify-content: center;
+}
+
+.h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.myimg{
+    width: 50%;
+}
+
+.photu{
+    width: 100%;
+}
+
+.textCoulmn{
+    display: flex;
+
 }
