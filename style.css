@@ -1,27 +1,27 @@
-body{
+.Loby {
     margin: 16px;
 }
 
-.qq{
+.qq {
     display: flex;
     justify-content: flex-end;
     gap: 5%;
     font-weight: bold;
 }
 
-.ww{
+.ww {
     border: 1px solid rgb(187, 187, 187);
     margin-top: 10px;
 }
 
-.tt{
+.tt {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
 
-.ee{
+.ee {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -29,8 +29,7 @@ body{
     font-weight: bold;
 }
 
-
-.btn1{
+.btn1 {
     cursor: pointer;
     background-color: black;
     color: rgb(252, 254, 255);
@@ -40,22 +39,22 @@ body{
     padding: 10px 30px;
 }
 
-.h1{
+.h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 40px;
 }
 
-.p1{
+.p1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.yy{
+.yy {
     display: flex;
     justify-content: space-between;
 }
 
-.txt{
+.txt {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,7 +62,7 @@ body{
 
 }
 
-.btn2{
+.btn2 {
     cursor: pointer;
     background-color: black;
     color: rgb(252, 254, 255);
@@ -74,38 +73,60 @@ body{
     margin-top: 30px;
 }
 
-.img1{
+.img1 {
     margin: 20px;
 }
-.bluebox{
-    display: flex;
+
+.bluebox {
     background-color: rgb(203, 233, 247);
-    flex-direction: column;
-    
 }
 
 
-.h22{
-    display: flex;
-    justify-content: center;
-}
 
-.h2{
+.h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 40px;
     text-align: center;
+    padding: 40px;
 }
 
-.myimg{
-    width: 50%;
-}
-
-.photu{
-    width: 100%;
-}
-
-.textCoulmn{
+.Loby2 {
     display: flex;
-
+    justify-content: space-between;
 }
+
+.photu {
+    width: 40%;
+    padding: 150px 50px 150px 50px;
+}
+
+.textCoulmn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    gap: 20px;
+    padding: 40px;
+}
+
+
+.ww1 {
+    border: 1px solid rgb(187, 187, 187);
+    margin-top: 10px;
+}
+
+.coulmnfont {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 10px;
+}
+
+.coulmnfontP {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
