@@ -121,7 +121,6 @@
     padding: 40px;
 }
 
-
 .ww1 {
     border: 1px solid rgb(187, 187, 187);
     margin-top: 10px;
@@ -182,6 +181,7 @@
     border: 0px;
     margin-top: 20px;
 }
+
 .btn3:hover{
     background-color: rgb(252, 252, 252);
     color: black;
@@ -205,4 +205,14 @@
 
 .yellowbox{
     background-color: yellow;
+}
+
+.twodabbaCoulmn{
+    display: flex;
+    flex-direction: column;
+}
+
+.poky1{
+    background-color: rgb(23, 21, 43);
+    color: rgb(255, 255, 255);
 }
