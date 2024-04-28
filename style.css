@@ -13,11 +13,12 @@
     font-weight: bold;
 }
 
-.borderRight{
+.borderRight {
     padding: 0px 25px;
-    border-right: 2px solid rgba(0, 0, 0, 0.397);
+    border-right: 2px solid rgba(65, 64, 64, 0.5);
 }
-.login{
+
+.login {
     padding-left: 25px;
 }
 
@@ -74,7 +75,7 @@
     justify-content: space-between;
 }
 
-.mainbrands{
+.mainbrands {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +110,7 @@
     border: 1px solid black;
 }
 
-.review IMG{
+.review IMG {
     margin-top: 30px;
 }
 
@@ -150,15 +151,16 @@
 
 .ww1 {
     border: 1px solid rgb(187, 187, 187);
-  
+
 }
-.baap{
+
+.baap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.plus{
+.plus {
     font-size: 24px;
     font-weight: 600;
 }
@@ -242,12 +244,12 @@
 .yellowbox {
     display: flex;
     gap: 50px;
-    padding: 50px 50px 150px 50px;
+    padding: 50px 50px 200px 50px;
     background-color: yellow;
 
 }
 
-.h4{
+.h4 {
     font-size: 48px;
 }
 
@@ -266,7 +268,8 @@
 }
 
 .poky1 {
-    background-color: rgb(80 75 135);;
+    background-color: rgb(80 75 135);
+    ;
     color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 10px 50px;
@@ -308,7 +311,8 @@
     width: 100%;
     border-radius: 9999px;
 }
-.BIGblackbox{
+
+.BIGblackbox {
     position: relative;
 }
 
@@ -325,7 +329,6 @@
 .saath {
     display: flex;
     justify-content: space-around;
-    padding: 0px 40px 40px 40px;
 }
 
 .blackboxbtn {
@@ -337,6 +340,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px 80px;
     align-self: flex-start;
+    margin-top: 10px;
 }
 
 .blackboxbtn:hover {
@@ -365,14 +369,15 @@
 
 .sam {
     display: flex;
-    justify-content: space-between;
-    width: 60%;
+    width: 50%;
+    padding: 40px;
+    padding-top: 0;
 }
 
 .sam1 {
     display: flex;
-    justify-content: end;
-    width: 40%;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .saath2 {
@@ -381,6 +386,7 @@
     gap: 15px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 60%;
 }
 
 .saath3 {
@@ -390,18 +396,21 @@
     font-weight: bold;
     gap: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
 }
 
 .ww2 {
     border: 1px solid rgb(44, 44, 44);
 }
 
-.saath1w {
+.Maath {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
-    width: 100%;
     padding: 40px;
+    width: 50%;
+    padding-top: 0;
 }
 
 .blackboxbtn1 {
@@ -421,16 +430,12 @@
     border: 1px solid rgb(255, 255, 255);
 }
 
-.btnpapa{
+.btnpapa {
     display: flex;
     gap: 10px;
 }
 
-.coba{
-    display: flex;
-    flex-direction: row;
 
-}
 
 .saath11 {
     display: flex;
@@ -438,32 +443,67 @@
     gap: 20px;
 }
 
+.gudduimg {
+    display: flex;
+    gap: 16px;
+}
 
+.gappu {
+    height: 40px;
+    width: 100px;
+}
+
+
+
+.saathtwo {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.Maath1{
+    display: flex;
+    /* gap: 40px; */
+    width: 50%;
+    font-size: 12px;
+
+}
 .saath22 {
     display: flex;
     flex-direction: column;
     gap: 15px;
-
 }
 
 .saath33 {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 50%;
 
 }
 
-.saath44 {
+.coba {
     display: flex;
-    flex-direction: column;
-    justify-content: end;
+    flex-direction: row;
+    gap: 50px;
+    width: 60%;
+    /* padding-top: 60px; */
 }
 
-.blue1box{
+.coba2 {
+    font-size: 12px;
+    width: 40%;
+    display: flex;
+    align-items: end;
+    padding-bottom: 20px;
+}
+
+.blue1box {
     background-color: rgb(43, 182, 247);
     color: rgb(255, 255, 255);
     position: relative;
-    top: -80px;
+    top: -130px;
     padding: 40px;
     border-radius: 20px;
     margin: 0px 20px 10px 20px;
@@ -475,7 +515,33 @@
     gap: 10px;
 }
 
-.bluebtn{
+.textalign {
+    text-align: center;
+}
+
+.golphotu {
+    position: relative;
+    top: 20px;
+}
+
+.golphotu2 {
+    left: -20px;
+}
+
+.ddf {
+    position: relative;
+    left: -20px;
+}
+
+.ppp {
+    border-bottom: 2px solid white;
+    width: 24px;
+    display: inline-block;
+    position: relative;
+    top: -7px;
+}
+
+.bluebtn {
     background-color: rgb(255, 255, 255);
     color: rgb(43, 182, 247);
     border-radius: 30px;
@@ -489,16 +555,23 @@
     font-size: 20px;
 }
 
-.bluebtn:hover{
+.bluebtn:hover {
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(43, 182, 247);
     color: rgb(255, 255, 255);
 }
 
-.gikiIMG{
+.gikiIMG {
     height: 50px;
 }
 
-.twoimg{
+.twoimg {
     border-radius: 30px;
+    width: 100%;
+}
+
+.ww21{
+    margin: 20px 0px;
+    border: 1px solid rgb(44, 44, 44);
+
 }
